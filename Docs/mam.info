@@ -1,0 +1,10 @@
+Source: record nstdb/ma
+val has 2 rows (signals) and 21600 columns (samples/signal)
+Duration:     1:00
+Sampling frequency: 360 Hz  Sampling interval: 0.002777777778 sec
+Row	Signal	Gain	Base	Units
+1	noise1	200	0	mV
+2	noise2	200	0	mV
+
+To convert from raw units to the physical units shown
+above, subtract 'base' and divide by 'gain'.
